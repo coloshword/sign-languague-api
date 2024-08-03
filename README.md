@@ -3,9 +3,11 @@
 Demo a simple endpoint. 
 
 ### Build steps 
-`git clone https://github.com/coloshword/sign-languague-api.git
+```
+git clone https://github.com/coloshword/sign-languague-api.git
 npm install
-npx tsc`
+npx tsc
+```
 
 ### Run step
 `node ./dist/server.js`
