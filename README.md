@@ -2,15 +2,23 @@
 
 Demo a simple endpoint. 
 
+### Build steps 
+`git clone https://github.com/coloshword/sign-languague-api.git`
+`npm install`
+`npx tsc`
+
+### Run step
+`node ./dist/server.js`
+
 ### Endpoint 
 
 POST /translate: 
 ```
-- content-type: josn
+- content-type: json
 - Body: { "text": "Your text here" }
 ```
 
-**web endpoint**: ``
+**web endpoint**: `http://34.207.80.47:3500/translate`
 
 **locally**: `http:localhost:3500/translate`
 
